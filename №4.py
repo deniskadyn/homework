@@ -1,4 +1,4 @@
-while 1:
+while true:
     a = input("Введите число: → ")
     if a == "exit":
         print("Выход из программы...")
@@ -6,4 +6,5 @@ while 1:
     if a.lstrip('-').isdigit():
         print("В этом числе", len(a) - (a[0] == "-"), "цифры.")
     else:
+
         print("Ошибка: данные не являются числом.")
